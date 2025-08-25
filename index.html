@@ -3,58 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cavallery - Digital Studio</title>
+    <title>Your Name | Web Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <div class="preloader">
-        <div class="loader-text">CAVALLERY</div>
-    </div>
-
-    <header class="main-header">
-        <div class="logo">CAVALLERY</div>
-        <nav class="main-nav">
-            <ul>
-                <li><a href="#">Work</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">YourName.</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
-        <div class="header-right">Est. 2024</div>
     </header>
 
     <main>
         <section class="hero">
-            <h1>A digital studio crafting beautiful experiences</h1>
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm [Your Name]</h1>
+                <p class="hero-subtitle">A Passionate Web Developer & UI/UX Enthusiast</p>
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+            </div>
         </section>
 
-        <section class="gallery">
-            <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1599909280338-26accb3a1631?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600" alt="Project 1">
-                <div class="overlay"><h3>Project Title 1</h3></div>
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="https://via.placeholder.com/350" alt="Your Photo">
+                    </div>
+                    <div class="about-text">
+                        <p>Hello! I'm a creative developer based in [Your City], specializing in building (and occasionally designing) exceptional digital experiences. I enjoy turning complex problems into simple, beautiful, and intuitive designs.</p>
+                        <p>When I'm not coding, you can find me exploring the latest tech trends, reading a good book, or enjoying a cup of coffee.</p>
+                        <div class="skills">
+                            <span class="skill">HTML</span>
+                            <span class="skill">CSS</span>
+                            <span class="skill">JavaScript</span>
+                            <span class="skill">React</span>
+                            <span class="skill">Figma</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1620121684324-a703e5c94b7a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600" alt="Project 2">
-                <div class="overlay"><h3>Project Title 2</h3></div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="project-gallery">
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                        <div class="project-info">
+                            <h3 class="project-title">Project One</h3>
+                            <p>A short description of the project goes here. Explain the tech stack and your role.</p>
+                            <a href="#" class="btn btn-secondary">View Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/400x300" alt="Project 2">
+                        <div class="project-info">
+                            <h3 class="project-title">Project Two</h3>
+                            <p>A short description of the project goes here. Explain the tech stack and your role.</p>
+                            <a href="#" class="btn btn-secondary">View Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="https://via.placeholder.com/400x300" alt="Project 3">
+                        <div class="project-info">
+                            <h3 class="project-title">Project Three</h3>
+                            <p>A short description of the project goes here. Explain the tech stack and your role.</p>
+                            <a href="#" class="btn btn-secondary">View Demo</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1617094553203-d65eed08544a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600" alt="Project 3">
-                <div class="overlay"><h3>Project Title 3</h3></div>
-            </div>
-            <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600" alt="Project 4">
-                <div class="overlay"><h3>Project Title 4</h3></div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-text">I'm currently available for freelance work. If you have a project in mind or just want to say hi, feel free to send me a message!</p>
+                <a href="mailto:your.email@example.com" class="btn btn-primary">Say Hello</a>
             </div>
         </section>
     </main>
 
-    <footer class="main-footer">
-        <p>Let's work together. <a href="mailto:hello@example.com">Get in touch.</a></p>
-        <div class="social-links">
-            <a href="#">Instagram</a>
-            <a href="#">Twitter</a>
-            <a href="#">LinkedIn</a>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 [Your Name]. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
         </div>
     </footer>
 
