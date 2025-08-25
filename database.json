@@ -1,6 +1,63 @@
-{
-  "data": [
-    "6288214173300",
-    "6289516142268"
-  ]
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cavallery - Digital Studio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="preloader">
+        <div class="loader-text">CAVALLERY</div>
+    </div>
+
+    <header class="main-header">
+        <div class="logo">CAVALLERY</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">Est. 2024</div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>A digital studio crafting beautiful experiences</h1>
+        </section>
+
+        <section class="gallery">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1599909280338-26accb3a1631?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600" alt="Project 1">
+                <div class="overlay"><h3>Project Title 1</h3></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1620121684324-a703e5c94b7a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600" alt="Project 2">
+                <div class="overlay"><h3>Project Title 2</h3></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1617094553203-d65eed08544a?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600" alt="Project 3">
+                <div class="overlay"><h3>Project Title 3</h3></div>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=600" alt="Project 4">
+                <div class="overlay"><h3>Project Title 4</h3></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>Let's work together. <a href="mailto:hello@example.com">Get in touch.</a></p>
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
